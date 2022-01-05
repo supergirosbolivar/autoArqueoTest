@@ -1,0 +1,24 @@
+body {
+  padding: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+#cameraContent {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(179, 187, 163);
+  width: 50rem;
+  height: 30rem;
+}
+
+.video-content {
+  align-self: center;
+  background-color: rgb(167, 164, 153);
+  width: 45rem;
+  height: 25rem;
+}
+
+#video {
+
+  height: 25rem;
+}
