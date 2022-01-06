@@ -25,7 +25,7 @@ Quagga.init(
     Quagga.start();
     Quagga.onDetected(function (result) {
       alert("yes ")
-
+      alert(result.codeResult.code)
       console.log(result.codeResult.code);
     });
 
