@@ -24,7 +24,7 @@ Quagga.init(
     console.log("Initialization finished. Ready to start");
     Quagga.start();
     Quagga.onDetected(function (result) {
-      alert("yes ")
+       $('#codes').text(result.codeResult.code);   
       alert(result.codeResult.code)
       console.log(result.codeResult.code);
     });
